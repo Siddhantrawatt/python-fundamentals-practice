@@ -7,6 +7,7 @@ This repository contains programs focused on building core Python concepts.
 - Loops
 - File Handling
 - Basic Problem Solving
+- OOPS
 
 ## Goal
 To strengthen programming fundamentals and problem-solving skills.
