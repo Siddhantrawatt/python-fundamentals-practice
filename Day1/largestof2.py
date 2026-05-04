@@ -1,7 +1,12 @@
+class largest():
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+        larger = a if a > b else b
+        self.larger = larger
+        
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
-if a > b:
-    print("Largest is:", a)
-else:
-    print("Largest is:", b)
+calc = largest(a, b)
+print("Largest is:", calc.larger)
